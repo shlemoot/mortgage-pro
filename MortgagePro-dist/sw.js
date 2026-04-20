@@ -1,4 +1,4 @@
-const CACHE_NAME = 'mortgage-pro-v1';
+const CACHE_NAME = 'mortgage-pro-v2';
 
 self.addEventListener('install', (event) => {
   self.skipWaiting();
@@ -14,10 +14,7 @@ self.addEventListener('activate', (event) => {
 });
 
 self.addEventListener('fetch', (event) => {
-  // Only cache GET requests
   if (event.request.method !== 'GET') return;
-
-  // Network first, fallback to cache
   event.respondWith(
     fetch(event.request)
       .then((response) => {
