@@ -1,27 +1,14 @@
 {
   "name": "מפתח יעוץ משכנתאות - אסף טמוזרתי",
   "short_name": "מפתח משכנתאות",
-  "description": "כלי ניהול יעוץ משכנתאות — מחשבון, CRM, עסקאות ועמלות",
   "start_url": "./",
-  "scope": "./",
   "display": "standalone",
-  "background_color": "#f8fafc",
   "theme_color": "#1E3A5F",
+  "background_color": "#f8fafc",
   "dir": "rtl",
   "lang": "he",
-  "orientation": "any",
   "icons": [
-    {
-      "src": "./icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "./icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any maskable"
-    }
+    { "src": "./icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "./icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
   ]
 }
